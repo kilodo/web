@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #006400;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav {
+  background-color: #228B22;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+article {
+  flex: 3;
+  padding: 20px;
+  background-color: #ffffff;
+  margin-right: 20px;
+}
+
+aside {
+  flex: 1;
+  padding: 20px;
+  background-color: #e0ffe0;
+}
+
+footer {
+  background-color: #006400;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+#trivia {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pregunta {
+  margin-bottom: 20px;
+}
+
+.pregunta ul {
+  list-style: none;
+  padding-left: 10px;
+}
+
+.pregunta li {
+  margin: 5px 0;
+}
+
+
+#curiosidades {
+  background-color: #fefefe;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 0 0 10px rgba(0, 128, 0, 0.2);
+}
+
+.curiosidad {
+  margin-bottom: 25px;
+}
+
+.curiosidad h3 {
+  color: #006400;
+}
+
+.curiosidad p {
+  margin: 5px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
